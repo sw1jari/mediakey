@@ -5,7 +5,7 @@ Handler for the keyboard's play/pause, next and previous keys.
 If the mpv started by [music-menu](https://github.com/sw1jari/music-menu) is running, it controls that. Otherwise it falls back to `playerctl`, so the keys still work with other players like Firefox or Spotify.
 
 ## Requirements
-bash, socat, playerctl
+socat, playerctl
 
 ## Install
 ```sh
